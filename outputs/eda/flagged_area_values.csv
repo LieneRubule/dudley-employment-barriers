@@ -1,0 +1,19 @@
+LSOA_Code,LSOA_Name,Measure,Value_Pct,Direction
+E01009780,Dudley 009A,Employed_Excl_FT_Students_Pct,70.26106696935301,Above
+E01009784,Dudley 009B,Employed_Excl_FT_Students_Pct,67.80715396578539,Above
+E01009886,Dudley 013E,Employed_Excl_FT_Students_Pct,41.07142857142857,Below
+E01009731,Dudley 023A,Employed_Excl_FT_Students_Pct,68.10606060606061,Above
+E01009730,Dudley 028D,Employed_Excl_FT_Students_Pct,68.89952153110048,Above
+E01009741,Dudley 022A,Unemployed_Excl_FT_Students_Pct,10.396634615384617,Above
+E01009836,Dudley 037B,Unemployed_Excl_FT_Students_Pct,8.13953488372093,Above
+E01009733,Dudley 039B,Unemployed_Excl_FT_Students_Pct,7.37134909596662,Above
+E01009762,Dudley 006F,Inactive_Home_Or_Family_Pct,13.590263691683573,Above
+E01009833,Dudley 032A,Inactive_Home_Or_Family_Pct,13.47457627118644,Above
+E01009908,Dudley 035E,Level_4_And_Above_Pct,49.64816262705239,Above
+E01009845,Dudley 041A,Level_4_And_Above_Pct,43.851508120649655,Above
+E01009850,Dudley 041C,Level_4_And_Above_Pct,43.78029079159936,Above
+E01009886,Dudley 013E,Disabled_16_Plus_Pct,36.7283950617284,Above
+E01009886,Dudley 013E,Limited_A_Lot_16_Plus_Pct,19.876543209876544,Above
+E01009741,Dudley 022A,No_Car_Van_Households_Pct,48.8479262672811,Above
+E01009836,Dudley 037B,No_Car_Van_Households_Pct,44.97175141242938,Above
+E01009733,Dudley 039B,No_Car_Van_Households_Pct,50.57833859095688,Above

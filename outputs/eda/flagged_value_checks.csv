@@ -1,0 +1,19 @@
+LSOA_Code,LSOA_Name,Measure,Count,Denominator,Total,Stored_Pct,Recalculated_Pct,Valid_Count_And_Total,Calculation_Matches
+E01009780,Dudley 009A,Employed_Excl_FT_Students_Pct,1238,Economic_Total_16_Plus,1762,70.26106696935301,70.26106696935301,True,True
+E01009784,Dudley 009B,Employed_Excl_FT_Students_Pct,872,Economic_Total_16_Plus,1286,67.80715396578539,67.80715396578539,True,True
+E01009886,Dudley 013E,Employed_Excl_FT_Students_Pct,667,Economic_Total_16_Plus,1624,41.07142857142857,41.07142857142857,True,True
+E01009731,Dudley 023A,Employed_Excl_FT_Students_Pct,899,Economic_Total_16_Plus,1320,68.10606060606061,68.10606060606061,True,True
+E01009730,Dudley 028D,Employed_Excl_FT_Students_Pct,864,Economic_Total_16_Plus,1254,68.89952153110048,68.89952153110048,True,True
+E01009741,Dudley 022A,Unemployed_Excl_FT_Students_Pct,173,Economic_Total_16_Plus,1664,10.396634615384617,10.396634615384617,True,True
+E01009836,Dudley 037B,Unemployed_Excl_FT_Students_Pct,119,Economic_Total_16_Plus,1462,8.13953488372093,8.13953488372093,True,True
+E01009733,Dudley 039B,Unemployed_Excl_FT_Students_Pct,106,Economic_Total_16_Plus,1438,7.37134909596662,7.37134909596662,True,True
+E01009762,Dudley 006F,Inactive_Home_Or_Family_Pct,134,Economic_Total_16_Plus,986,13.590263691683573,13.590263691683571,True,True
+E01009833,Dudley 032A,Inactive_Home_Or_Family_Pct,159,Economic_Total_16_Plus,1180,13.47457627118644,13.474576271186441,True,True
+E01009908,Dudley 035E,Level_4_And_Above_Pct,635,Qualifications_Total_16_Plus,1279,49.64816262705239,49.648162627052386,True,True
+E01009845,Dudley 041A,Level_4_And_Above_Pct,567,Qualifications_Total_16_Plus,1293,43.851508120649655,43.851508120649655,True,True
+E01009850,Dudley 041C,Level_4_And_Above_Pct,542,Qualifications_Total_16_Plus,1238,43.78029079159936,43.780290791599356,True,True
+E01009886,Dudley 013E,Disabled_16_Plus_Pct,595,Disability_Total_16_Plus,1620,36.7283950617284,36.7283950617284,True,True
+E01009886,Dudley 013E,Limited_A_Lot_16_Plus_Pct,322,Disability_Total_16_Plus,1620,19.876543209876544,19.876543209876544,True,True
+E01009741,Dudley 022A,No_Car_Van_Households_Pct,530,Total_Households,1085,48.8479262672811,48.8479262672811,True,True
+E01009836,Dudley 037B,No_Car_Van_Households_Pct,398,Total_Households,885,44.97175141242938,44.97175141242938,True,True
+E01009733,Dudley 039B,No_Car_Van_Households_Pct,481,Total_Households,951,50.57833859095688,50.57833859095688,True,True
