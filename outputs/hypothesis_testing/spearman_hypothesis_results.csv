@@ -1,0 +1,4 @@
+Hypothesis,Number_of_Areas,Spearman_Rho,Unadjusted_P_Value,Holm_Adjusted_P_Value,Reject_H0_At_0_05
+H1: Health limitations,199,0.7661842417330544,1.0849611512433136e-39,1.0849611512433136e-39,True
+H2: No formal qualifications,199,0.8361956891258748,2.741427032978397e-53,5.482854065956794e-53,True
+H3: Households without a car or van,199,0.8769041243369303,1.360132154691625e-64,4.080396464074875e-64,True
