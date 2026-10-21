@@ -451,9 +451,7 @@ def show_hypotheses(data):
                 showlegend=False,
             )
             show_chart(figure, height=390)
-            st.caption(
-                "One point per neighbourhood. Hover to see its " "name and percentages."
-            )
+            st.caption("Hover over a point for area details.")
 
         with finding_column:
             st.metric("Spearman correlation", f"{rho:.3f}")
@@ -492,8 +490,12 @@ def show_hypotheses(data):
     with st.expander("View the detailed results and download"):
         displayed = results.copy()
         displayed["Spearman_Rho"] = displayed["Spearman_Rho"].round(3)
-        for column in ["Unadjusted_P_Value", "Holm_Adjusted_P_Value"]:
-            displayed[column] = displayed[column].map(lambda value: f"{value:.3e}")
+        for column in [
+            "Unadjusted_P_Value",
+            "Holm_Adjusted_P_Value",
+        ]:
+            values = displayed[column]
+            displayed[column] = values.map("{:.3e}".format)
         displayed = displayed.rename(
             columns={
                 "Number_of_Areas": "Areas",
