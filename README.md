@@ -856,12 +856,6 @@ ChatGPT assisted with project organisation, Python code development and explanat
 
 Generated suggestions were checked against source definitions and actual outputs. Where wording did not match the completed analysis, it was corrected using the saved results. Responsibility for the final code, interpretations and published content remains with the author.
 
-### Media and Visualisations
-
-The project charts were generated from the project data using Python libraries. Dashboard screenshots show the project's own Streamlit application.
-
-The Code Institute logo and original README structure were supplied through the course template.
-
 ### Ethical Attribution
 
 Ethical considerations guided how contributions were credited. The original data providers, technical documentation, course materials and AI assistance are acknowledged so that readers can distinguish the author's analysis from external contributions.
@@ -881,10 +875,13 @@ Ethical considerations shaped the wording throughout: descriptions distinguish n
 ### Media
 
 - **Code Institute logo:** Supplied through the course README template and credited to Code Institute.
-- **Charts and visualisations:** Generated from the project data using Matplotlib, Seaborn and Plotly.
-- **Dashboard screenshots:** Captured from the project's Streamlit application to document its layout and functionality.
+- **Analysis figures:** The Census correlation heatmap and deprivation-decile comparison were generated from the project data using Python. These appear as Figures 1 and 2.
+- **Dashboard screenshots:** Figures 3–6 show the Overview, Explore Areas, Hypothesis Results, and Sources & Ethics tabs of the project's Streamlit dashboard hosted on Heroku.
+- **Image files:** The figures and screenshots are stored in the repository's `visualisations` folder.
 
-Ethical considerations informed the visual presentation. Charts use descriptive labels rather than judgements about neighbourhoods, and interpretation notes accompany sensitive findings. The visuals represent aggregated statistics and do not identify individual residents.
+Ethical considerations informed the selection and presentation of these images. Captions explain the scope of the evidence and distinguish neighbourhood associations from individual circumstances or causal effects. Highlighted neighbourhoods illustrate the dashboard's comparison features rather than identifying priority areas for intervention.
+
+The screenshots are static illustrations. Readers can use the live dashboard link in the Deployment section to access the interactive features.
 
 ---
 
