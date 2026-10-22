@@ -300,6 +300,8 @@ The visualisations were selected to show how circumstances vary across neighbour
 
 The analysis progressed from data validation to descriptive exploration and then hypothesis testing. This order allowed problems with geographical coverage, denominators and variable definitions to be addressed before interpreting relationships.
 
+
+
 ### Data Validation and Preparation
 
 Each source was checked separately for missing values, duplicate records, numerical types, area codes and relevant category totals. Percentages were calculated using source-specific denominators rather than assuming that all datasets contained identical population totals.
@@ -331,6 +333,16 @@ Spearman correlation heatmaps and scatter plots were used to explore relationshi
 These methods helped identify patterns worth investigating, but several relationships involved overlapping definitions. For example, residents whose activities are limited a lot are a subgroup of disabled residents. Deprivation indices also contain employment, education and health components, so related Census patterns cannot be treated as independent validation.
 
 The deprivation comparisons describe differences between groups of areas, not changes over time. Group medians also conceal variation within each decile.
+
+![Spearman correlation heatmap of selected Census measures across 199 Dudley neighbourhoods](visualisations/census_spearman_correlations.png)
+
+*Figure 1. Relationships between selected Census measures across the 199 included neighbourhoods. Correlations describe area-level associations, not individual circumstances or causal effects. Some measures have overlapping definitions.*
+
+![Median Census measures by historical deprivation decile across the included Dudley neighbourhoods](visualisations/census_by_imd_decile.png)
+
+*Figure 2. Median Census 2021 measures grouped by English Indices of Deprivation 2019 decile, where 1 represents the most deprived and 10 the least deprived nationally. These are neighbourhood medians, not pooled population percentages or changes over time. Group summaries do not describe every resident's circumstances.*
+
+
 
 ### Defining a Measurable Inactivity Outcome
 
