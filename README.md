@@ -579,6 +579,10 @@ The histogram shows variation that a single average would hide. The doughnut cha
 
 The composition chart is explicitly described as shares of selected inactive residents across the included areas, not shares of the entire population. Notes beneath the heatmap explain the conceptual overlap between health limitations and sickness-related inactivity, and the limits of vehicle availability as a transport indicator.
 
+![Dashboard Overview showing summary cards, selected inactivity distribution, composition and correlations](visualisations/owerview_dashboard.png)
+
+*Figure 3. Overview of the 199 included neighbourhoods. Definitions and interpretation notes accompany the charts to distinguish area-level patterns from individual circumstances and causal explanations.*
+
 ### Tab 2: Explore Areas
 
 This tab allows users to investigate neighbourhood patterns through:
@@ -596,6 +600,10 @@ Highlighted areas are visually distinguished from the other points, preserving t
 The comparison chart includes a dotted reference line for the included-area mean. Its caption explains that each area has equal weight. This supports comparison without presenting the reference as a population-weighted borough percentage.
 
 Users choose which areas to inspect; the dashboard does not label neighbourhoods as good, bad or automatically in need of a particular intervention.
+
+![Explore Areas dashboard showing neighbourhood selection, scatter plot and area comparisons](visualisations/explore_areas_dashboard.png)
+
+*Figure 4. Interactive neighbourhood exploration. Selected areas are highlighted for comparison, not ranked by need. Highlighting does not change the saved hypothesis-test results.*
 
 ### Tab 3: Hypothesis Results
 
@@ -620,9 +628,17 @@ These interpretation notes address health-measure overlap, the distinction betwe
 
 An expandable section provides detailed results and a download option. The closing explanation identifies the findings as exploratory associations and acknowledges approximate p-values, possible spatial dependence and unmeasured confounding. This keeps statistical significance separate from claims about causes or individual circumstances.
 
+![Hypothesis Results dashboard showing relationships between selected economic inactivity and the three investigated measures](visualisations/hypothesis_dashboard.png)
+
+*Figure 5. Hypothesis findings with statistical results and measure-specific interpretation notes. The associations describe neighbourhood patterns; they do not establish causation or individual ability to work.*
+
 ### Tab 4: Sources & Ethics
 
 This tab allows readers to examine where the data came from, how the measures were constructed and what conclusions can responsibly be drawn. Ethical, legal and social considerations informed its design: readers can access this context within the dashboard itself, even when they have not read the README.
+
+![Sources and Ethics dashboard showing data sources, measure definitions, coverage and responsible interpretation guidance](visualisations/source_ethics_dashboard.png)
+
+*Figure 6. Sources, definitions and ethical guidance are available within the dashboard so readers can assess the evidence and its limitations alongside the findings.*
 
 #### Sources, Attribution and Transparency
 
