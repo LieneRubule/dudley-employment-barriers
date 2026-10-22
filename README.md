@@ -662,13 +662,13 @@ Generated documentation also required review against the completed calculations.
 | Presenting technical findings clearly | Organised the dashboard into four tabs, with plain-language explanations, interactive comparisons and downloadable supporting information. | Allowed readers to explore the evidence at different levels of detail while keeping limitations visible. |
 | Moving from a local dashboard to Heroku | Investigated deployment errors and corrected the setup until the hosted dashboard opened successfully. | Made the project available beyond the local development environment. |
 | Checking AI-assisted work | Compared generated code and wording with source definitions, saved outputs and the completed analysis. | Corrected mismatched hypothesis descriptions and kept responsibility for the published findings with the author. |
+| Communicating sensitive findings without reinforcing stigma | Used neutral labels, explained the limits of each measure beside the charts, and distinguished neighbourhood patterns from individual circumstances. | Ethical considerations shaped how results were presented, helping avoid assumptions that disability means inability to work, no qualifications means no skills, or inactivity means unwillingness to work. |
 
 ### Planned Learning and Improvements
 
 The next stage would focus on improving the evidence and interpretation before adding further complexity.
 
 Ethical considerations will guide further learning: assessing accessibility with users, checking whether analytical methods misrepresent particular communities, and evaluating privacy risks before adding new data. Future improvements should make the findings more useful without encouraging stigma, individual profiling or unsupported claims about the causes of economic inactivity.
-| Communicating sensitive findings without reinforcing stigma | Used neutral labels, explained the limits of each measure beside the charts, and distinguished neighbourhood patterns from individual circumstances. | Ethical considerations shaped how results were presented, helping avoid assumptions that disability means inability to work, no qualifications means no skills, or inactivity means unwillingness to work. |
 
 1. **Spatial analysis**
    
