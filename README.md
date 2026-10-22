@@ -567,6 +567,8 @@ The following information remains above the tabs:
 
 A note beneath the cards explains that the mean gives each neighbourhood equal weight. This prevents users from interpreting 12.4% as the pooled percentage of all Dudley residents.
 
+The [Dashboard Plan](DASHBOARD_PLAN.md) explains the purpose of each tab, the choice of charts and interactions, and how ethical considerations shaped the presentation and interpretation of the findings.
+
 ### Tab 1: Overview
 
 This tab introduces the selected inactivity measure through three visualisations:
