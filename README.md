@@ -178,6 +178,8 @@ $$
 
 Ethical decisions shaped each stage of the project, including which data was used, how areas were compared, how unusual values were handled and what could reasonably be concluded from the results.
 
+Progress, completed tasks and outstanding checks are tracked on the [Dudley Employment Barriers project board](https://github.com/users/LieneRubule/projects/4/views/1). Unverified checks remain open so the board accurately reflects the work completed.
+
 ### 1. Data Collection: Use Appropriate Public Data
 
 The project used published neighbourhood statistics from ONS/Nomis and MHCLG. Individual records were not required to investigate the research question, so no names, personal addresses or identifiable health information were collected.
