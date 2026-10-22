@@ -406,25 +406,23 @@ The author retained responsibility for the analytical choices and final interpre
 
 This project examines circumstances that can affect people's access to employment. Health, qualifications and household resources are sensitive subjects even when reported as neighbourhood statistics. The analysis therefore considers both the accuracy of the findings and the consequences of how they are communicated.
 
-### Privacy and Responsible Data Use
+### Privacy, Data Use and Transparency
 
 The project uses published, aggregated statistics rather than individual records. No names, personal addresses or identifiable health information were collected, and no attempt was made to identify residents.
 
-LSOA codes identify geographical areas, not individual people. However, aggregation does not justify making assumptions about everyone within an area. A neighbourhood with higher disability and inactivity percentages does not demonstrate that its disabled residents are the same people recorded as economically inactive.
+LSOA codes identify geographical areas rather than individual people. However, aggregation does not justify making assumptions about everyone within an area. A neighbourhood with higher disability and inactivity percentages does not demonstrate that its disabled residents are the same people recorded as economically inactive.
 
 The project does not link these statistics to personal records or use them to profile individuals.
 
-### Licensing, Attribution and Transparency
-
 The Census data was obtained from the Office for National Statistics through Nomis. Historical deprivation data was obtained from the Ministry of Housing, Communities and Local Government. ONS geographical lookup information supported boundary matching.
 
-The original providers are acknowledged, and the project uses the following attribution:
+The original data providers are acknowledged, and the project uses the following attribution:
 
 > Contains public sector information licensed under the Open Government Licence v3.0.
 
 The [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) permits reuse subject to its conditions, including source attribution. The analysis is an independent educational project and does not imply endorsement by the data providers or Dudley Council.
 
-Published aggregate statistics are used without processing identifiable personal records. As explained in [ICO guidance on anonymisation](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/anonymisation/introduction-to-anonymisation/), genuinely anonymous information falls outside data protection law. Public availability alone, however, does not establish that information is anonymous.
+Published aggregate statistics are used without processing identifiable personal records. As explained in the [ICO guidance on anonymisation](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/anonymisation/introduction-to-anonymisation/), genuinely anonymous information falls outside data protection law. Public availability alone, however, does not establish that information is anonymous.
 
 External documentation and AI assistance are acknowledged. Responsibility for checking the code, calculations and interpretation remains with the project author.
 
@@ -443,7 +441,9 @@ The analysis avoids treating economic inactivity as unwillingness to work. The s
 The interpretation of each barrier requires particular care:
 
 - **Health limitations:** Disability does not establish inability to work. Accessible workplaces, suitable roles and adjustments are not measured by the correlation tests. The health predictor also overlaps conceptually with the sickness and disability component of the outcome.
+
 - **Qualifications:** Having no formal qualifications does not mean having no skills. Practical experience, informal learning and unpaid contributions are not captured by the qualification measure.
+
 - **Household car availability:** Having no car or van does not necessarily mean poor access to employment. Public transport, walking routes, affordability and job locations are not directly measured.
 
 These distinctions prevent the findings from placing responsibility solely on residents or implying that one intervention would resolve complex circumstances.
@@ -454,9 +454,11 @@ All three tests found strong positive associations with selected economic inacti
 
 Holm adjustment was used to address multiple testing. However, approximate p-values, possible spatial dependence, overlapping measures and unmeasured factors remain limitations. The hypotheses were also informed by exploration of the same data, so the results are presented as exploratory evidence.
 
-The car-availability correlation was the largest observed coefficient, but this does not establish transport as the most important cause. Similarly, the qualifications association does not show that training alone would reduce inactivity.
+The largest observed correlation was for household car availability, but this does not establish transport as the most important cause of economic inactivity. Similarly, the qualifications association does not demonstrate that training alone would reduce inactivity.
 
-The outcome is consistently described as **selected economic inactivity**, because it excludes retirement and inactive students from its numerator. Describing it as total inactivity would overstate the scope of the analysis.
+The outcome is consistently described as **selected economic inactivity** because it excludes retirement and inactive students from its numerator. Describing it as total inactivity would overstate the scope of the analysis.
+
+These findings describe neighbourhood-level relationships rather than individual circumstances and should not be interpreted as evidence of causation.
 
 ### Social Value and Limits on Use
 
@@ -466,89 +468,7 @@ Neighbourhood statistics cannot determine which services an individual needs. De
 
 The dashboard should not be used to judge individual employability, determine benefit eligibility, restrict access to support or label neighbourhoods as undesirable. Its purpose is to make patterns and limitations visible so that discussion about employment barriers is better informed.
 
-### Privacy and Data Protection
-
-This project uses publicly available, aggregated statistics from
-Census 2021 and the English Indices of Deprivation 2019. The records
-represent neighbourhoods rather than identifiable individuals.
-
-No names, personal addresses or individual health records are used.
-No attempt is made to identify residents or combine the data with
-personal information.
-
-Genuinely anonymous information falls outside the scope of UK GDPR.
-However, public availability alone does not mean that all data is
-anonymous or exempt from data protection requirements.
-
-### Licensing and Attribution
-
-The project acknowledges the original data providers:
-
-- Office for National Statistics (ONS), for Census 2021 data
-  accessed through Nomis and geographical lookup information.
-- Ministry of Housing, Communities and Local Government (MHCLG),
-  for the English Indices of Deprivation 2019.
-
-Contains public sector information licensed under the
-[Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
-
-This is an independent educational project and does not imply
-endorsement by the data providers or Dudley Council.
-
-External code, documentation and generative AI assistance are
-acknowledged in the project. Responsibility for checking the analysis
-and interpreting the findings remains with the project author.
-
-### Bias and Responsible Interpretation
-
-The analysis identifies associations between neighbourhood
-characteristics. It cannot establish that health limitations,
-qualification levels or transport barriers cause economic inactivity.
-
-Although the research question uses the word "drive", findings must
-be interpreted as evidence of relationships rather than causal effects.
-
-Several limitations affect interpretation:
-
-- **Area-level data:** A relationship across neighbourhoods does not
-  establish the same relationship for individual residents. Assuming
-  otherwise would risk the ecological fallacy.
-- **Transport indicator:** Having no car or van does not necessarily
-  mean a household experiences transport poverty. Public transport,
-  affordability, accessibility and distance to employment also matter.
-- **Qualifications:** Having no formal qualifications does not mean
-  that a person lacks practical skills, experience or employability.
-- **Population differences:** Measures covering residents aged 16
-  and over can reflect differences in neighbourhood age structures.
-  Car availability measures households rather than individual people.
-- **Reference periods:** Census 2021 and deprivation data from 2019
-  describe different periods and should not be presented as current
-  conditions.
-- **Geographical coverage:** The combined analysis covers 199 matched
-  LSOAs rather than all 203 Census 2021 LSOAs in Dudley. Excluded areas
-  limit how fully the results represent the borough.
-
-### Fairness and Social Implications
-
-The project focuses on potential structural barriers rather than
-blaming individuals or communities for economic inactivity.
-
-Disability, deprivation and unemployment statistics must be
-communicated respectfully. Higher rates should not be used to label
-neighbourhoods as undesirable or residents as unwilling to work.
-
-Economic inactivity is different from unemployment. It includes
-people with varied circumstances, including students, carers,
-retired residents and people experiencing long-term illness.
-
-The findings may support discussion about accessible employment
-support, training, health services and further transport research.
-However, the dashboard should not be used to determine individual
-employability, benefit eligibility or access to opportunities.
-
-Any decisions about services or funding would require further
-evidence, up-to-date information and consultation with residents.
-
+Any decisions about services or funding would require further evidence, up-to-date information and consultation with residents.
 ---
 
 ## Dashboard Design
